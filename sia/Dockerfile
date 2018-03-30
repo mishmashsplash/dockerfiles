@@ -1,6 +1,6 @@
 FROM debian
 
-ARG SIA_VERSION=1.3.1
+ARG SIA_VERSION=1.3.2
 
 RUN apt-get update && \
     apt-get install -y wget unzip && \
